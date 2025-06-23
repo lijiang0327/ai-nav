@@ -1,0 +1,141 @@
+categories:
+  - id: writing
+    name: AI写作工具
+    description: AI辅助写作和内容创作工具，包括文章、小说、论文等写作
+    icon: pencil-square
+
+  - id: image
+    name: AI图像工具
+    description: AI图像处理工具，包括生成、编辑、优化等功能
+    icon: photo
+    subcategories:
+      - name: 常用AI图像工具
+      - name: AI图片插画生成
+      - name: AI图片背景移除
+      - name: AI图片物体抹除
+      - name: AI图片无损放大
+      - name: AI图片优化修复
+      - name: AI商品图生成
+      - name: AI 3D模型生成
+
+  - id: video
+    name: AI视频工具
+    description: AI视频制作和编辑工具
+    icon: video-camera
+
+  - id: office
+    name: AI办公工具
+    description: AI办公自动化工具
+    icon: briefcase
+    subcategories:
+      - name: AI幻灯片和演示
+      - name: AI表格数据处理
+      - name: AI思维导图
+      - name: AI文档工具
+      - name: AI会议工具
+      - name: AI招聘求职
+      - name: AI法律助手
+      - name: AI语言翻译
+      - name: AI效率提升
+
+  - id: agent
+    name: AI智能体
+    description: AI智能助手和Agent工具
+    icon: cpu
+
+  - id: chat
+    name: AI聊天助手
+    description: AI对话和聊天工具
+    icon: 💬
+    subcategories:
+      - name: 通用对话
+        description: 多用途AI助手
+      - name: 专业对话
+        description: 特定领域的AI助手
+      - name: 角色扮演
+        description: 虚拟角色对话
+
+  - id: coding
+    name: AI编程工具
+    description: AI编程开发助手
+    icon: 💻
+    subcategories:
+      - name: 代码生成
+        description: AI代码编写
+      - name: 代码补全
+        description: 智能代码提示
+      - name: 代码分析
+        description: 代码质量检查
+
+  - id: design
+    name: AI设计工具
+    description: AI辅助设计工具
+    icon: paint-brush
+
+  - id: audio
+    name: AI音频工具
+    description: AI音频处理和生成工具
+    icon: 🎵
+    subcategories:
+      - name: 语音合成
+        description: 文本转语音
+      - name: 音频编辑
+        description: AI音频处理
+      - name: 音乐生成
+        description: AI音乐创作
+
+  - id: search
+    name: AI搜索引擎
+    description: AI搜索工具和引擎
+    icon: 🔍
+    subcategories:
+      - name: 智能搜索
+        description: AI搜索引擎
+      - name: 问答系统
+        description: 智能问答助手
+      - name: 信息检索
+        description: 精准信息查找
+
+  - id: platform
+    name: AI开发平台
+    description: AI开发和训练平台
+    icon: server
+
+  - id: learning
+    name: AI学习网站
+    description: AI学习资源和教程网站
+    icon: academic-cap
+
+  - id: model
+    name: AI训练模型
+    description: 开源AI模型和训练资源
+    icon: cube
+
+  - id: evaluation
+    name: AI模型评测
+    description: AI模型评估和测试工具
+    icon: 📊
+    subcategories:
+      - name: 性能评测
+        description: 模型性能测试
+      - name: 基准测试
+        description: 标准化评测
+      - name: 对比分析
+        description: 模型对比评估
+
+  - id: detection
+    name: AI内容检测
+    description: AI生成内容检测工具
+    icon: 🔍
+    subcategories:
+      - name: 内容检测
+        description: AI生成内容检测
+      - name: 真实性验证
+        description: 内容真实性检查
+      - name: 质量评估
+        description: 内容质量分析
+
+  - id: prompt
+    name: AI提示指令
+    description: AI提示词和指令工具
+    icon: command-line 

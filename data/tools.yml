@@ -1,0 +1,577 @@
+tools:
+  # 热门工具
+  - id: doubao
+    name: 豆包
+    description: 字节跳动推出的免费AI智能助手
+    url: https://doubao.com
+    category: chat
+    tags: [聊天, 智能助手]
+    isHot: true
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: toast-ai
+    name: 吐司AI
+    description: AI绘画模型社区和在线生图平台
+    url: https://toast.ai
+    category: image
+    tags: [绘画, 社区]
+    isHot: true
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: trae
+    name: Trae
+    description: 字节跳动推出的免费AI编程工具，基于Claude模型
+    url: https://trae.ai
+    category: coding
+    tags: [编程, Claude]
+    isHot: true
+    image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop
+
+  - id: aippt
+    name: AiPPT
+    description: AI快速生成高质量PPT
+    url: https://aippt.cn
+    category: office
+    tags: [PPT, 演示]
+    isHot: true
+    image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop
+
+  - id: mita-search
+    name: 秘塔AI搜索
+    description: 最好用的AI搜索工具，没有广告，直达结果
+    url: https://metaso.cn
+    category: search
+    tags: [搜索, 无广告]
+    isHot: true
+    image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop
+
+  # 写作工具
+  - id: xunfei-writing
+    name: 讯飞绘文
+    description: 免费AI写作工具，5分钟生成一篇原创稿！
+    url: https://huiwen.ai
+    category: writing
+    tags: [写作, 原创]
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  - id: bili-writing
+    name: 笔灵AI写作
+    description: 面向专业写作领域的AI写作工具
+    url: https://biling.com
+    category: writing
+    tags: [写作, 专业]
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  - id: huoshan-writing
+    name: 火山写作
+    description: 字节推出的免费AI写作助手（已合并至豆包）
+    url: https://huoshan.com
+    category: writing
+    tags: [写作, 免费]
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  # 最新工具
+  - id: flowai
+    name: FloweAI
+    description: 通用型AI Agent，支持多任务并行处理
+    url: https://flowai.com
+    category: agent
+    tags: [Agent, 多任务]
+    isNew: true
+    image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop
+
+  - id: interview-cat
+    name: 面试猫
+    description: AI面试辅助工具，实时语音识别面试官问题
+    url: https://mianshimao.com
+    category: office
+    tags: [面试, 语音识别]
+    isNew: true
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  - id: clacky-ai
+    name: Clacky AI
+    description: AI编程工具，打造L3级的Coding Studio
+    url: https://clacky.ai
+    category: coding
+    tags: [编程, IDE]
+    isNew: true
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  - id: prompt-pilot
+    name: PromptPilot
+    description: 字节跳动推出的AI提示词解决方案平台
+    url: https://promptpilot.com
+    category: prompt
+    tags: [提示词, 解决方案]
+    isNew: true
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  # 内容检测工具
+  - id: zhuque
+    name: 朱雀AI检测
+    description: 腾讯推出的AI图像和文本鉴别工具
+    url: https://zhuque.com
+    category: detection
+    tags: [检测, 鉴别]
+    image: https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop
+
+  - id: gptzero
+    name: GPTZero
+    description: 超过百万人都在用的免费AI内容检测工具
+    url: https://gptzero.me
+    category: detection
+    tags: [检测, 免费]
+    image: https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop
+
+  # 模型评测工具
+  - id: mmlu
+    name: MMLU
+    description: 大规模多任务语言理解基准
+    url: https://mmlu.org
+    category: evaluation
+    tags: [评测, 基准]
+    image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop
+
+  - id: c-eval
+    name: C-Eval
+    description: 一个全面的中文基础模型评估套件
+    url: https://ceval.ai
+    category: evaluation
+    tags: [评测, 中文]
+    image: https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop
+
+  - id: midjourney
+    name: Midjourney
+    description: 强大的AI图像生成工具，能够根据文本描述创建高质量艺术作品
+    url: https://midjourney.com
+    category: image
+    tags: [AI绘画, 图像生成, 艺术]
+    isHot: true
+    image: https://images.unsplash.com/photo-1464983953574-0892a716854b?w=400&h=300&fit=crop
+
+  - id: stable-diffusion
+    name: Stable Diffusion
+    description: 开源的AI图像生成模型，支持本地部署和自定义训练
+    url: https://stability.ai
+    category: image
+    tags: [开源, AI绘画, 本地部署]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: chatgpt
+    name: ChatGPT
+    description: OpenAI开发的大型语言模型，能够进行自然语言对话和文本生成
+    url: https://chat.openai.com
+    category: chat
+    tags: [AI对话, 文本生成, OpenAI]
+    isHot: true
+    image: https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=300&fit=crop
+
+  - id: claude
+    name: Claude
+    description: Anthropic开发的AI助手，擅长写作、分析和编程
+    url: https://claude.ai
+    category: chat
+    tags: [AI助手, 写作, 编程]
+    isHot: true
+    image: https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=400&h=300&fit=crop
+
+  - id: gemini
+    name: Gemini
+    description: Google开发的多模态AI模型，支持文本、图像和代码理解
+    url: https://gemini.google.com
+    category: chat
+    tags: [多模态, Google, AI助手]
+    isNew: true
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: dalle
+    name: DALL-E
+    description: OpenAI开发的AI图像生成模型，能够创建各种风格的图像
+    url: https://openai.com/dall-e-2
+    category: image
+    tags: [AI绘画, OpenAI, 图像生成]
+    isHot: true
+    image: https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop
+
+  - id: github-copilot
+    name: GitHub Copilot
+    description: AI编程助手，能够根据注释和上下文自动生成代码
+    url: https://github.com/features/copilot
+    category: coding
+    tags: [编程, 代码生成, GitHub]
+    isHot: true
+    image: https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop
+
+  - id: cursor
+    name: Cursor
+    description: 基于AI的代码编辑器，集成了强大的代码生成和编辑功能
+    url: https://cursor.sh
+    category: coding
+    tags: [代码编辑器, AI编程, 开发工具]
+    isNew: true
+    image: https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop
+
+  - id: tabnine
+    name: Tabnine
+    description: AI代码补全工具，支持多种编程语言和IDE
+    url: https://www.tabnine.com
+    category: coding
+    tags: [代码补全, 编程, IDE插件]
+    image: https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop
+
+  - id: jasper
+    name: Jasper
+    description: AI写作助手，能够生成营销文案、博客文章等内容
+    url: https://jasper.ai
+    category: writing
+    tags: [AI写作, 营销文案, 内容生成]
+    isHot: true
+    image: https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&h=300&fit=crop
+
+  - id: copy-ai
+    name: Copy.ai
+    description: 专业的AI文案生成工具，适用于各种营销场景
+    url: https://www.copy.ai
+    category: writing
+    tags: [文案生成, 营销, AI写作]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: grammarly
+    name: Grammarly
+    description: AI写作助手，能够检查语法、拼写和写作风格
+    url: https://www.grammarly.com
+    category: writing
+    tags: [语法检查, 写作助手, 拼写检查]
+    image: https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=300&fit=crop
+
+  - id: notion-ai
+    name: Notion AI
+    description: 集成在Notion中的AI助手，能够帮助写作、总结和组织内容
+    url: https://www.notion.so
+    category: productivity
+    tags: [笔记, AI助手, 生产力]
+    isNew: true
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: monday-ai
+    name: Monday AI
+    description: 项目管理平台中的AI助手，能够自动化工作流程
+    url: https://monday.com
+    category: productivity
+    tags: [项目管理, 自动化, 工作流程]
+    image: https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=300&fit=crop
+
+  - id: zapier
+    name: Zapier
+    description: 自动化工作流程平台，能够连接各种应用程序
+    url: https://zapier.com
+    category: productivity
+    tags: [自动化, 工作流程, 应用集成]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: elevenlabs
+    name: ElevenLabs
+    description: AI语音合成平台，能够生成自然流畅的语音内容
+    url: https://elevenlabs.io
+    category: audio
+    tags: [语音合成, AI音频, 文本转语音]
+    isNew: true
+    image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop
+
+  - id: mubert
+    name: Mubert
+    description: AI音乐生成平台，能够创建各种风格的音乐
+    url: https://mubert.com
+    category: audio
+    tags: [AI音乐, 音乐生成, 创作工具]
+    image: https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=300&fit=crop
+
+  - id: descript
+    name: Descript
+    description: AI音频和视频编辑工具，支持文本编辑音频
+    url: https://www.descript.com
+    category: audio
+    tags: [音频编辑, 视频编辑, AI编辑]
+    image: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop
+
+  - id: runway
+    name: Runway
+    description: AI视频生成和编辑平台，支持各种创意视频制作
+    url: https://runwayml.com
+    category: video
+    tags: [AI视频, 视频生成, 创意工具]
+    isHot: true
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: synthesia
+    name: Synthesia
+    description: AI视频生成平台，能够创建虚拟人物视频
+    url: https://www.synthesia.io
+    category: video
+    tags: [虚拟人物, 视频生成, AI视频]
+    image: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop
+
+  - id: pictory
+    name: Pictory
+    description: 自动视频编辑工具，能够将长视频转换为短视频
+    url: https://pictory.ai
+    category: video
+    tags: [视频编辑, 短视频, 自动化]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: chatpdf
+    name: ChatPDF
+    description: AI文档助手，能够与PDF文档进行对话
+    url: https://www.chatpdf.com
+    category: document
+    tags: [PDF处理, 文档分析, AI助手]
+    isNew: true
+    image: https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&h=300&fit=crop
+
+  - id: humata
+    name: Humata
+    description: AI文档分析工具，能够快速理解和总结文档内容
+    url: https://www.humata.ai
+    category: document
+    tags: [文档分析, 内容总结, AI助手]
+    image: https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop
+
+  - id: docu-ai
+    name: DocuAI
+    description: 智能文档处理平台，支持各种文档格式的AI分析
+    url: https://docuai.com
+    category: document
+    tags: [文档处理, AI分析, 智能识别]
+    image: https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&h=300&fit=crop
+
+  - id: character-ai
+    name: Character.AI
+    description: AI角色扮演平台，能够与各种虚拟角色进行对话
+    url: https://character.ai
+    category: entertainment
+    tags: [角色扮演, AI对话, 娱乐]
+    isHot: true
+    image: https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=300&fit=crop
+
+  - id: replika
+    name: Replika
+    description: AI伴侣应用，能够提供情感支持和陪伴
+    url: https://replika.com
+    category: entertainment
+    tags: [AI伴侣, 情感支持, 陪伴]
+    image: https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=400&h=300&fit=crop
+
+  - id: ai-dungeon
+    name: AI Dungeon
+    description: AI驱动的文字冒险游戏，能够创造无限的故事
+    url: https://aidungeon.io
+    category: entertainment
+    tags: [文字冒险, 游戏, 故事生成]
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: openai-whisper
+    name: Whisper
+    description: OpenAI开发的语音识别模型，支持多语言语音转文字
+    url: https://openai.com/research/whisper
+    category: speech
+    tags: [语音识别, 语音转文字, OpenAI]
+    image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop
+
+  - id: otter-ai
+    name: Otter.ai
+    description: 实时语音转文字工具，支持会议记录和转录
+    url: https://otter.ai
+    category: speech
+    tags: [语音转文字, 会议记录, 实时转录]
+    image: https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=300&fit=crop
+
+  - id: rev
+    name: Rev
+    description: 专业的语音转文字和字幕服务
+    url: https://www.rev.com
+    category: speech
+    tags: [语音转文字, 字幕, 专业服务]
+    image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop
+
+  - id: perplexity
+    name: Perplexity
+    description: AI搜索引擎，能够提供准确的信息和答案
+    url: https://www.perplexity.ai
+    category: search
+    tags: [AI搜索, 信息检索, 问答]
+    isNew: true
+    image: https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop
+
+  - id: you-com
+    name: You.com
+    description: AI驱动的搜索引擎，提供智能搜索和内容生成
+    url: https://you.com
+    category: search
+    tags: [AI搜索, 智能搜索, 内容生成]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: phind
+    name: Phind
+    description: 面向开发者的AI搜索引擎，专门用于技术问题搜索
+    url: https://www.phind.com
+    category: search
+    tags: [技术搜索, 开发者工具, AI搜索]
+    image: https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop
+
+  # AI设计工具
+  - id: canva-ai
+    name: Canva AI
+    description: 集成AI智能设计助手的在线平面设计平台，支持一键生成海报、简历、社交媒体图片等。
+    url: https://www.canva.cn/
+    category: design
+    tags: [平面设计, 智能生成, 海报]
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: figma-ai
+    name: Figma AI
+    description: Figma集成AI插件，支持智能生成UI界面、自动补全设计、智能配色等功能。
+    url: https://www.figma.com/
+    category: design
+    tags: [UI设计, 智能配色, 协作]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: remove-bg
+    name: Remove.bg
+    description: AI自动抠图工具，支持一键去除图片背景，适合电商、设计师等场景。
+    url: https://www.remove.bg/
+    category: design
+    tags: [抠图, 图片处理, 电商]
+    image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop
+
+  - id: designify
+    name: Designify
+    description: AI驱动的图片增强和自动设计工具，适合批量生成高质量产品图。
+    url: https://www.designify.com/
+    category: design
+    tags: [图片增强, 产品图, 批量处理]
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  # AI开发平台
+  - id: huggingface
+    name: Hugging Face
+    description: 全球领先的AI模型社区和开发平台，支持模型托管、推理、训练、数据集管理等，生态极其丰富。
+    url: https://huggingface.co
+    category: platform
+    tags: [模型社区, 推理, 训练, 数据集]
+    image: https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=300&fit=crop
+
+  - id: modelscope
+    name: ModelScope（魔搭社区）
+    description: 阿里巴巴出品的AI模型开放平台，支持多模态模型、推理服务、AutoML等，适合中文开发者。
+    url: https://modelscope.cn
+    category: platform
+    tags: [模型开放, 多模态, AutoML]
+    image: https://images.unsplash.com/photo-1464983953574-0892a716854b?w=400&h=300&fit=crop
+
+  - id: google-colab
+    name: Google Colab
+    description: 谷歌推出的免费云端Jupyter笔记本，支持GPU/TPU，适合AI实验、模型训练和分享。
+    url: https://colab.research.google.com
+    category: platform
+    tags: [云端, Jupyter, GPU, TPU]
+    image: https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop
+
+  - id: aistudio
+    name: 百度飞桨AI Studio
+    description: 百度推出的AI开发与学习平台，提供丰富的模型、数据集和算力资源，适合中文用户。
+    url: https://aistudio.baidu.com
+    category: platform
+    tags: [飞桨, 数据集, 算力, 中文]
+    image: https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop
+
+  # AI学习网站
+  - id: fastai
+    name: Fast.ai
+    description: 全球知名的AI深度学习免费课程，强调实战和代码驱动，适合零基础入门。
+    url: https://www.fast.ai
+    category: learning
+    tags: [深度学习, 免费课程, 实战]
+    image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop
+
+  - id: coursera-ai
+    name: Coursera AI课程
+    description: 全球最大MOOC平台，聚合了斯坦福、deeplearning.ai等顶级AI课程，适合系统学习。
+    url: https://www.coursera.org
+    category: learning
+    tags: [MOOC, 系统学习, 吴恩达]
+    image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop
+
+  - id: aidaxue
+    name: AI大学堂
+    description: 科大讯飞打造的中文AI在线学习平台，涵盖AI基础、深度学习、行业应用等。
+    url: https://www.aidaxue.com
+    category: learning
+    tags: [中文, 在线学习, 认证]
+    image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop
+
+  - id: deeplearningai
+    name: DeepLearning.AI
+    description: 吴恩达团队打造，专注于AI和深度学习课程，内容权威且实用。
+    url: https://www.deeplearning.ai
+    category: learning
+    tags: [深度学习, 吴恩达, 课程]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  # AI模型评测
+  - id: opencompass
+    name: OpenCompass
+    description: 开源的多模型、多任务AI大模型评测平台，支持主流NLP/CV模型的自动化评测。
+    url: https://opencompass.org.cn/
+    category: evaluation
+    tags: [评测, 多模型, 自动化]
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: cmmlu
+    name: CMMLU
+    description: 中文多任务大模型评测基准，专注于中文场景下的多学科能力测试。
+    url: https://github.com/haonan-li/cmmlu
+    category: evaluation
+    tags: [评测, 中文, 多任务]
+    image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop
+
+  # AI训练模型
+  - id: llama3
+    name: Llama 3
+    description: Meta开源的大型语言模型，支持多语言，性能优异，广泛应用于NLP任务。
+    url: https://ai.meta.com/llama/
+    category: model
+    tags: [开源, 语言模型, 多语言]
+    image: https://images.unsplash.com/photo-1464983953574-0892a716854b?w=400&h=300&fit=crop
+
+  - id: chatglm
+    name: ChatGLM
+    description: 清华智谱推出的国产开源大语言模型，支持中英双语，适合对话、问答、内容生成等。
+    url: https://chatglm.cn
+    category: model
+    tags: [国产, 语言模型, 对话, 开源]
+    image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop
+
+  - id: wenxin-yiyan
+    name: 文心一言
+    description: 百度推出的多模态大模型，支持文本、图像、语音等多种AI能力。
+    url: https://yiyan.baidu.com
+    category: model
+    tags: [多模态, 百度, 中文, 开源]
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop
+
+  - id: mistral
+    name: Mistral
+    description: 欧洲团队开源的高性能大语言模型，支持多种推理和微调方式。
+    url: https://mistral.ai
+    category: model
+    tags: [开源, 高性能, 推理, 微调]
+    image: https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?w=400&h=300&fit=crop
+
+  - id: open-llama
+    name: Open-Llama
+    description: 开源高性能Llama模型训练代码和权重，适合自定义训练和研究。
+    url: https://github.com/s-JoL/Open-Llama
+    category: model
+    tags: [开源, Llama, 训练, 研究]
+    image: https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=300&fit=crop
