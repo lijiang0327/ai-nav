@@ -11,5 +11,6 @@ export const siteConfig: SiteConfig = {
     'AI绘画',
     'AI编程',
     '智能工具'
-  ]
-} 
+  ],
+  url: 'https://ai.blackdounkey.tech'
+}
