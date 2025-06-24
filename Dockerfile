@@ -1,23 +1,18 @@
-# 使用官方 Node.js 镜像（选择合适版本，如 18-alpine）
-FROM node:20.19-alpine
-
-# 设置工作目录
+# 第一阶段：仅安装生产依赖
+FROM node:20-alpine AS deps
 WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev  # 只安装生产依赖
 
-# 复制 package.json 和 package-lock.json（或 yarn.lock）
-COPY package*.json ./
-
-# 安装依赖
-RUN npm install
-
-# 复制项目文件
+# 第二阶段：构建
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-
-# 构建 Next.js 项目（生产环境）
 RUN npm run build
 
-# 运行 Next.js
+# 第三阶段：运行
+FROM node:20-alpine AS runner
+COPY --from=builder /app/.next ./.next
 CMD ["npm", "start"]
-
-# 暴露端口（Next.js 默认 3000）
 EXPOSE 3000
