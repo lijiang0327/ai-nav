@@ -27,10 +27,24 @@ export function Header({ tools }: HeaderProps) {
 
         {/* 右侧导航 */}
         <nav className="flex items-center space-x-6 group-focus-within:hidden md:group-focus-within:block">
-          <Link href="/" className="text-gray-600 hover:text-gray-900">
+          <Link
+            href="/"
+            className="text-gray-600 hover:text-gray-900"
+            onMouseDown={e => {
+              e.preventDefault();
+              e.stopPropagation();
+            }}
+          >
             首页
           </Link>
-          <Link href="/about" className="text-gray-600 hover:text-gray-900">
+          <Link
+            href="/about"
+            className="text-gray-600 hover:text-gray-900"
+            onMouseDown={e => {
+              e.preventDefault();
+              e.stopPropagation();
+            }}
+          >
             关于我们
           </Link>
         </nav>
