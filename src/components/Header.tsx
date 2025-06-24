@@ -14,19 +14,19 @@ export function Header({ tools }: HeaderProps) {
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-4">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between group">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-gray-900">
+        <Link href="/" className="text-2xl font-bold text-gray-900 hidden sm:inline">
           AI工具集
         </Link>
 
         {/* 搜索框外层加relative，宽度自适应 */}
-        <div className="flex-1 max-w-2xl mx-8 relative">
+        <div className="flex-1 mx-8 relative search-animate-width">
           <Search tools={tools} onSearch={setSearchResults} />
         </div>
 
         {/* 右侧导航 */}
-        <nav className="flex items-center space-x-6">
+        <nav className="flex items-center space-x-6 group-focus-within:hidden">
           <Link href="/" className="text-gray-600 hover:text-gray-900">
             首页
           </Link>

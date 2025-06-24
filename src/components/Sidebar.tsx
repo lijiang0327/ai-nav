@@ -52,10 +52,9 @@ export function Sidebar({ categories }: SidebarProps) {
   }
 
   return (
-    <aside className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
+    <aside className="hidden md:block w-80 bg-white border-r border-gray-200 overflow-y-auto">
       <div className="p-6">
         <h2 className="text-lg font-semibold text-gray-900 mb-4">AI工具分类</h2>
-        
         <nav className="space-y-1">
           {categories.map((category) => (
             <button
@@ -73,4 +72,4 @@ export function Sidebar({ categories }: SidebarProps) {
       </div>
     </aside>
   )
-} 
+}

@@ -19,3 +19,9 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
 }
+
+.search-animate-width {
+  transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+  width: 100%;
+  max-width: 32rem; /* 2xl */
+}
