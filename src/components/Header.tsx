@@ -26,7 +26,7 @@ export function Header({ tools }: HeaderProps) {
         </div>
 
         {/* 右侧导航 */}
-        <nav className="flex items-center space-x-6 group-focus-within:hidden">
+        <nav className="flex items-center space-x-6 group-focus-within:hidden md:group-focus-within:block">
           <Link href="/" className="text-gray-600 hover:text-gray-900">
             首页
           </Link>
