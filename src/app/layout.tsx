@@ -26,11 +26,17 @@ export default async function RootLayout({
 
   return (
     <html lang="zh" className="overflow-x-hidden">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3400455575723873"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <body className="bg-gray-50">
         <div className="flex h-screen">
           {/* 左侧边栏 */}
           <Sidebar categories={categories} />
-          
           {/* 主内容区 */}
           <div className="flex-1 flex flex-col">
             <Header tools={tools} />
